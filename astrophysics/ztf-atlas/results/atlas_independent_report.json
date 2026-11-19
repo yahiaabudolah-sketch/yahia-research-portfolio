@@ -1,0 +1,201 @@
+{
+  "target": {
+    "ztf_object_id": "514211100003577",
+    "gaia_dr3_source_id": "3161310025388614272",
+    "ra_deg": 106.6730212,
+    "dec_deg": 13.4139898
+  },
+  "test_period_days": 1.499270758150525,
+  "dataset": "ATLAS reduced-image forced photometry supplied by user",
+  "original_row_count": 4262,
+  "excluded_filter_codes": {
+    "o": 3394,
+    "c": 865,
+    "H": 3
+  },
+  "quality_cuts": {
+    "flux_uJy": ">0",
+    "duJy": ">0",
+    "dm": "0 < dmag < 0.25",
+    "chi_over_N": "<3",
+    "magnitude": "15 to 23",
+    "notes": "Exploratory cuts; nightly bins with 0.10mag error floor for robustness; c,o separate; no formal full-survey false-alarm calibration."
+  },
+  "filters": {
+    "o": {
+      "original": 3394,
+      "clean_exposures": 2509,
+      "clean_nights": 653,
+      "nightly_phase_fit": {
+        "p2p": 0.021553442649331546,
+        "amplitude": 0.010776721324665773,
+        "phase_radians": 1.9975693289576266,
+        "partial_r2": 0.0043085495832003605,
+        "n": 653,
+        "coefficients": [
+          -0.004460866521922479,
+          0.009810116838401939
+        ]
+      },
+      "nightly_simple_fit": {
+        "p2p": 0.025673136802457315,
+        "amplitude": 0.012836568401228658,
+        "phase_radians": 1.8382029188762432,
+        "partial_r2": 0.005832036242816856,
+        "n": 653,
+        "coefficients": [
+          -0.003391820478876156,
+          0.012380349032175886
+        ]
+      },
+      "per_exposure_phase_fit": {
+        "p2p": 0.016062380889424098,
+        "amplitude": 0.008031190444712049,
+        "phase_radians": 1.8079856676366532,
+        "partial_r2": 0.001910037452688635,
+        "n": 2509,
+        "coefficients": [
+          -0.0018871015975852384,
+          0.007806335088863747
+        ]
+      },
+      "epoch_splits": {
+        "early": {
+          "p2p": 0.04874912989864135,
+          "amplitude": 0.024374564949320675,
+          "phase_radians": 2.5938661213042575,
+          "partial_r2": 0.0147834669604387,
+          "n": 120,
+          "coefficients": [
+            -0.020808825207970966,
+            0.012692998461071525
+          ]
+        },
+        "middle": {
+          "p2p": 0.016908064269702438,
+          "amplitude": 0.008454032134851219,
+          "phase_radians": -2.018620778747553,
+          "partial_r2": 0.0028268960675913606,
+          "n": 261,
+          "coefficients": [
+            -0.0036606427528880154,
+            -0.007620390670616928
+          ]
+        },
+        "late": {
+          "p2p": 0.04763399824434345,
+          "amplitude": 0.023816999122171726,
+          "phase_radians": 1.4706410133139132,
+          "partial_r2": 0.02529912368362316,
+          "n": 272,
+          "coefficients": [
+            0.0023814129888907794,
+            0.02369764375126504
+          ]
+        }
+      },
+      "bootstrap_p2p_percentiles": [
+        0.008991206332144279,
+        0.02545413823536996,
+        0.04506175349148076
+      ],
+      "within_season_permutation_p_fixed_frequency": 0.23480432972522897,
+      "caveat": "Permutation is only for preselected frequency and simple within-season shuffling, not a calibrated global false-alarm probability."
+    },
+    "c": {
+      "original": 865,
+      "clean_exposures": 763,
+      "clean_nights": 199,
+      "nightly_phase_fit": {
+        "p2p": 0.01723006874071675,
+        "amplitude": 0.008615034370358375,
+        "phase_radians": -1.8235997140690718,
+        "partial_r2": 0.003279440917841142,
+        "n": 199,
+        "coefficients": [
+          -0.002154785679388727,
+          -0.008341205900729065
+        ]
+      },
+      "nightly_simple_fit": {
+        "p2p": 0.01800246346168731,
+        "amplitude": 0.009001231730843655,
+        "phase_radians": -1.7626250018116263,
+        "partial_r2": 0.002318004899674876,
+        "n": 199,
+        "coefficients": [
+          -0.0017161239381251932,
+          -0.008836124223964958
+        ]
+      },
+      "per_exposure_phase_fit": {
+        "p2p": 0.00909039728888606,
+        "amplitude": 0.00454519864444303,
+        "phase_radians": 2.909142156372853,
+        "partial_r2": 0.0005546230344895606,
+        "n": 763,
+        "coefficients": [
+          -0.004422954680932531,
+          0.001047044701941502
+        ]
+      },
+      "epoch_splits": {
+        "early": {
+          "p2p": 0.050153872349585744,
+          "amplitude": 0.025076936174792872,
+          "phase_radians": -1.2368706583759324,
+          "partial_r2": 0.022849525780961215,
+          "n": 54,
+          "coefficients": [
+            0.008219075430469997,
+            -0.023691760740453205
+          ]
+        },
+        "middle": {
+          "p2p": 0.022282245538383604,
+          "amplitude": 0.011141122769191802,
+          "phase_radians": -2.598604395907837,
+          "partial_r2": 0.007405474593827387,
+          "n": 78,
+          "coefficients": [
+            -0.00953867818347853,
+            -0.00575658189121242
+          ]
+        },
+        "late": {
+          "p2p": 0.012856097845689661,
+          "amplitude": 0.0064280489228448305,
+          "phase_radians": 0.331567344447903,
+          "partial_r2": 0.0011138606391255072,
+          "n": 67,
+          "coefficients": [
+            0.006077934276421329,
+            0.0020924932224476445
+          ]
+        }
+      },
+      "bootstrap_p2p_percentiles": [
+        0.007458919078856361,
+        0.029656598396341514,
+        0.06088353987484658
+      ],
+      "within_season_permutation_p_fixed_frequency": 0.7185678601165695,
+      "caveat": "Permutation is only for preselected frequency and simple within-season shuffling, not a calibrated global false-alarm probability."
+    }
+  },
+  "ztf_reference": {
+    "n": 495,
+    "fitted_same_period": {
+      "p2p": 0.02582564914189512,
+      "amplitude": 0.01291282457094756,
+      "phase_radians": -1.273504525213479,
+      "partial_r2": 0.0486744466068988,
+      "n": 495,
+      "coefficients": [
+        0.0037825780465408332,
+        -0.012346381725910405
+      ]
+    },
+    "selection": "catflags==0, magerr<0.1,magzprms<0.04,limitmag>19.5,chi<3"
+  }
+}
