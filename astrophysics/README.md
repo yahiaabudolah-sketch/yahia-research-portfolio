@@ -1,12 +1,12 @@
 # Astrophysics & computational research
 
-| Research | Original material or reproducible method | Main limitation |
+| Research | Files | Recorded findings |
 |---|---|---|
-| [Boundary-Dominated Curvature](emergent-gravity/) | Archived symbolic validation and motif-count derivation code | A deliberately defined weighted-network model, not a derivation of GR |
-| [GhostHunter](ghosthunter/) | Original detector v10, v11.1 and audit scripts, candidate measurements | Candidate identification is provisional |
-| [ZTF / ATLAS](ztf-atlas/) | Original time-domain code and independent evaluation | Systematics and periodicity uncertainty |
-| [LAMOST](lamost/) | Historical results and a reconstructed FITS analysis workflow | Original FITS and plot not recovered; rerun required |
+| [Boundary-source gravity framework](emergent-gravity/) | [51 canonical scripts, 14 model folders](emergent-gravity/toy_models/) and [verification tables](emergent-gravity/results/) | Exact weighted-network motif law and numerical continuum studies; inserted field equations |
+| [GhostHunter](ghosthunter/) | Detector code, catalogue validation and source measurements | 49 tiles screened; candidates remain unconfirmed |
+| [ZTF / ATLAS](ztf-atlas/) | Time-domain code, image-level and independent survey results | 4,262 ATLAS input observations in an independent candidate check; periodicity not established |
+| [LAMOST](lamost/) | Historical results and reconstructed analysis workflow | Original catalogue of 700,480 rows; historical exponent approximately 3.46 |
 
-Additional academic experience includes exoplanet transit modelling and Monte Carlo decay simulations. Those coursework source files are not published here.
+The exoplanet transit modelling and radioactive-decay simulations were additional undergraduate projects. Their original coursework files are not yet in this repository.
 
-Research data sources: [DESI Legacy Surveys](https://www.legacysurvey.org/), [ZTF](https://www.ztf.caltech.edu/), [ATLAS](https://fallingstar.com/), [LAMOST](https://www.lamost.org/).
+Data sources: [DESI Legacy Surveys](https://www.legacysurvey.org/), [ZTF](https://www.ztf.caltech.edu/), [ATLAS](https://fallingstar.com/), [LAMOST](https://www.lamost.org/).

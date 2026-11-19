@@ -10,7 +10,7 @@ I'm a final-year astrophysics student at Swansea University, graduating in June 
 |---|---|---|
 | **[Commercial Space Economics](space-economics/)** | [Excel model](space-economics/Space_Economics_Model.xlsx) · [Report](space-economics/Space_Economics_Report.pdf) · [Python](space-economics/analyze.py) | Three companies, nine funding scenarios |
 | **[Orbit Intelligence](orbit-intelligence/)** | [Python](orbit-intelligence/analyze.py) · [Model results](orbit-intelligence/results.json) | 93 monthly observations; 3.86% historical holdout MAPE |
-| **[Boundary-Dominated Curvature](astrophysics/emergent-gravity/)** | [Symbolic validation](astrophysics/emergent-gravity/closed_form_symbolic_curvature_validation.py) · [Motif derivation](astrophysics/emergent-gravity/motif_count_derivation.py) | Exact model-specific boundary law; 1,125 historical validation points |
+| **[Boundary-source gravity framework](astrophysics/emergent-gravity/)** | [14 toy models](astrophysics/emergent-gravity/toy_models/) · [Recorded results](astrophysics/emergent-gravity/results/) | 51 canonical scripts, exact motif law and continuum tests |
 | **[GhostHunter](astrophysics/ghosthunter/)** | [v11.1 detector](astrophysics/ghosthunter/GHOSTHUNTER_V11_1_DISCOVERY_PILOT_FIXED.py) · [Candidate data](astrophysics/ghosthunter/results/followup_six_candidates.csv) | Low-surface-brightness candidate screening |
 | **[ZTF & ATLAS](astrophysics/ztf-atlas/)** | [Python analysis](astrophysics/ztf-atlas/GHOSTHUNTER_TIME_DOMAIN_SPRINT.py) · [Independent check](astrophysics/ztf-atlas/results/atlas_independent_report.json) | Period searches and cross-survey checks |
 | **[LAMOST stellar analysis](astrophysics/lamost/)** | [Portable reproduction script](astrophysics/lamost/analyze.py) · [Historical findings](astrophysics/lamost/recorded_results.json) | Historical mass–luminosity exponent ≈3.46 |
@@ -38,13 +38,13 @@ A historical maritime nowcasting experiment combining AIS and official Singapore
 
 ## Scientific research
 
-### Boundary-Dominated Curvature Response in Weighted Network Defects
+### A Boundary-Source Toy Framework for Emergent Weak-Field Gravity
 
-An investigation of weighted graph curvature and the mathematical role of interface motifs. The July 2026 manuscript reports symbolic/direct graph agreement at floating-point precision across 1,125 parameter points. It deliberately limits its claim to the specified network model.
+A 14-model research programme investigating weighted-network defects, boundary curvature, microscopic dynamics and continuum reconstruction. The July verification archive reports direct graph and symbolic agreement across 1,125 parameter points. The familiar field equations are effective inputs, not a derivation of general relativity.
 
 ![Weighted network schematic](portfolio-assets/gravity-concept.svg)
 
-[Research overview and code](astrophysics/emergent-gravity/) · [Full astrophysics index](astrophysics/)
+[Research overview](astrophysics/emergent-gravity/) · [All 14 toy models](astrophysics/emergent-gravity/toy_models/) · [Numerical results](astrophysics/emergent-gravity/results/)
 
 ### Astronomical data analysis
 

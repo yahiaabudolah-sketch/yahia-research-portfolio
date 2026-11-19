@@ -1,0 +1,14 @@
+verification,scope,error_or_diagnostic,status
+Path-count identity,4410 path records,6.394884621840902e-14,PASS
+"Critical beta, independent bisection",6 alpha values,3.05311331771918e-16,PASS
+Archived direct-vs-motif,1125 parameter points,3.552713678800501e-15,PASS
+Fresh closed-form law,1125 parameter points,2.6645352591e-15,PASS
+Fresh Toy 11b motif coefficient recovery,500 cases,2.4424906541753444e-15,PASS
+Fresh Toy 12a microscopic dynamics,15 groups,9.255366699196243e-08,PASS
+Fresh Toy 12c defect formation,4 groups,0.0209285175744197,PASS
+Fresh Toy 13a resolution scaling,8 resolution groups,0.1145782381541002,PASS with resolved-domain caveat
+Fresh Toy 13b coarse-graining,10 coarse groups,0.0,PASS with under-resolution caveat
+Fresh Toy 13c continuum reconstruction,3 leave-one-resolution seeded cases,0.0698613857783995,PASS; coarse transfer weak
+Fresh Toy 13d failure-domain,12 cases,0.0,PASS 12/12
+Fresh Toy 4 Poisson illustration,1 field + 9 trajectories,6.178892050442976e-08,PASS; bridge inserted
+Fresh Toy 14 capstone,12 validity/failure cases,0.0398408964045194,PASS; bridge inserted
