@@ -6,7 +6,7 @@
 
 ## Research question
 
-For a graph with a localized defect, what controls the baseline-corrected weighted Forman-inspired curvature diagnostic: interior coupling alone, or interface motifs?
+For a graph with a localised defect, what controls the baseline-corrected weighted Forman-inspired curvature diagnostic: interior coupling alone, or interface motifs?
 
 ## Archived findings
 
@@ -25,6 +25,6 @@ For a graph with a localized defect, what controls the baseline-corrected weight
 
 Install NumPy and matplotlib in a separate Python environment. Inspect each script's parameters and output paths before running, as original scripts were authored for a local workstation. Additional models and the complete final package are archived separately.
 
-The supplementary verification report states that core results were rerun or independently/archivally checked; a complete uninterrupted run of all canonical scripts did not finish in the original time budget. This repository update does not constitute a new verification of those results.
+The supplementary verification report states that core results were rerun or independently/archivally checked; a complete uninterrupted run of all canonical scripts did not finish in the original time budget. The reported results have not been rerun for this repository.
 
 **Scope:** exact consequences of the specified graph, weights and diagnostic. Physical spacetime, general relativity and quantum gravity are not derived.

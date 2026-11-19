@@ -11,4 +11,4 @@
 - Integrated industry research, commercial trends and qualitative credit factors with quantitative analysis.
 - Prepared a preliminary credit review and presented a conditional lending recommendation.
 
-This is virtual professional development, not employment at Standard Chartered. Original proprietary simulation materials, solution files and client scenario inputs are not redistributed. No employer endorsement implied.
+This is virtual professional development, not employment at Standard Chartered. Original proprietary simulation materials, solution files and client scenario inputs are not redistributed.

@@ -5,7 +5,7 @@ Can contemporary shipping signals improve estimates of monthly official containe
 
 ## Historical experiment
 
-AI-assisted prototype evaluated on 93 monthly observations (January 2019–September 2026), with a fixed training cutoff of December 2024 and a 21-month holdout. Year-over-year daily rates reduce seasonality, and an ordinary least-squares regression combines two contemporaneous AIS traffic measures. AIS is collected by satellite and terrestrial receivers; this experiment does not use optical imagery.
+The model was evaluated on 93 monthly observations (January 2019–September 2026), with a fixed training cutoff of December 2024 and a 21-month holdout. Year-on-year daily rates reduce seasonality, and an ordinary least-squares regression combines two contemporaneous AIS traffic measures. AIS is collected by satellite and terrestrial receivers; this experiment does not use optical imagery.
 
 | Model | Holdout MAPE |
 |---|---:|
@@ -13,7 +13,7 @@ AI-assisted prototype evaluated on 93 monthly observations (January 2019–Septe
 | Historical growth baseline | 4.47% |
 | AIS nowcast | 3.86% |
 
-The results are historical associations, not proof of a live predictive advantage. The data are revised historical observations, and release timing and real-time vintages were not tested. The sample is small, covers one port and does not establish causality. Negative partial coefficients need further investigation rather than causal interpretation.
+The results are historical associations, not proof of a live predictive advantage. The data are revised historical observations, and release timing and real-time vintages were not tested. The sample is small, covers one port and cannot establish causality. Negative partial coefficients need further investigation rather than causal interpretation.
 
 ## Reproduction
 
@@ -22,7 +22,7 @@ The results are historical associations, not proof of a live predictive advantag
 3. From the repository root install `requirements.txt`; then run `python orbit-intelligence/analyze.py`.
 4. Examine `results.json`, generated figures and `dashboard.html`. The dashboard is generated locally and is not committed because it embeds the source values. Updated inputs may yield different metrics.
 
-The original AIS snapshot was transcribed from republished tables; the raw data, data-bearing figures, PDF and interactive dashboard are retained in a separate local project bundle, not published here. The aggregate numerical results from that experiment are included. The optional `nightlights_extension.js` requires Earth Engine and remains unexecuted.
+The original AIS snapshot was transcribed from republished tables; the raw data, data-bearing figures, PDF and interactive dashboard are retained in a separate local project bundle, not published here. The aggregate numerical results from that experiment are included. The optional `nightlights_extension.js` requires Earth Engine and has not been run.
 
 ## Sources and attribution (accessed 19 November 2026)
 - Source: International Monetary Fund, [IMF PortWatch](https://portwatch.imf.org/), developed with the University of Oxford using UN Global Platform AIS data. [Methodology](https://www.elibrary.imf.org/view/journals/001/2025/093/article-A001-en.xml).
@@ -33,4 +33,4 @@ The original AIS snapshot was transcribed from republished tables; the raw data,
 - Optional optical extension: [NOAA VIIRS monthly composites](https://developers.google.com/earth-engine/datasets/catalog/NOAA_VIIRS_DNB_MONTHLY_V1_VCMCFG).
 
 ## Next steps
-Independent reproduction, evaluate chronological alternate holdout windows, compare a second port and confirm release timing before making any early-warning claims.
+Reproduce the historical experiment, test alternative holdout periods, compare a second port and check the actual dates on which the input data became available.

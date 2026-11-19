@@ -11,6 +11,6 @@ BLACKOUT explores atmospheric audio-led storytelling, investigations, vintage ed
 - Product and story integration: audio, interaction, discovery and pacing.
 - Asset sourcing and rights review, alongside prototype iteration.
 
-Earlier design experiments were superseded by a newer design direction. Rejected mockups are intentionally not presented as the approved interface. The current visual build and final licensed assets are not publicly available in this portfolio.
+The design has evolved through several prototype iterations. The current interface and licensed assets remain private.
 
-Private designs, code, story details and audio remain protected. No public release, partnership, users or revenue are claimed.
+Private designs, code, story details and audio remain protected. The app has not been publicly released.
