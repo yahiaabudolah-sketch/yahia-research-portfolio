@@ -1,23 +1,19 @@
 # ATHAR | Student productivity and career development
 
-**Independent product-development project · Working demo / ongoing development**
+**Independent product-development project · React / Vite / Phaser · Ongoing**
 
-ATHAR explores how students can organise their academic work, recognise the skills they have developed and translate their experience into credible career evidence. It brings academic planning and career preparation into a bilingual student-oriented web application.
+ATHAR combines academic organisation and career evidence with a world-inspired interactive experience. Earlier product iterations explored academic planning, Evidence Vault, Field Map and CV Studio, including bilingual workflows.
 
-## Product concept and prototype scope
+## October 2026 direction
 
-- Academic organisation: assignment capture, planning and progress tracking.
-- Evidence Vault: organising projects, activities and other evidence of skills.
-- Career exploration and Field Map: connecting student experience with career requirements.
-- CV Studio: drafting and tailoring CVs using supporting evidence.
-- English and Arabic accessibility, onboarding and responsive interface design.
+The v0.5 continuation package records eleven approved room concepts, physically connected floor-plan geometry and a room-focused camera specification. It includes tested TypeScript layout helpers, a reference prototype and an integration plan for the existing private app.
 
-These describe the scope of earlier working-demo iterations; the current private branch has not been independently audited for feature completeness.
+[Read the archived geometry QA findings](geometry-qa.md)
 
-## Development focus
+The isolated layout tests validated room connectivity, shared boundaries and proposed doorways; they did **not** validate integration into the private Phaser app or prove production readiness.
 
-Product strategy, user experience, interface prototyping, web application development, information architecture and iterative testing. Earlier implementations used React, TypeScript and Vite; the project has explored browser-based AI and private-first workflows. This is not a claim that each proposed feature is currently deployed.
+## Development scope
 
-## Status and confidentiality
+Product strategy, interface design, typed world geometry, camera behaviour, responsiveness, iteration and local prototype evaluation.
 
-Development-stage demo. No public launch, user adoption, revenue, or production readiness is claimed. The original source repository remains private; code, credentials, student data and proprietary assets are not included in this public case study.
+The private application remains separate. Licensed sprite packs and unreleased implementation details are not redistributed. No public launch, users or revenue are claimed. The current live-app visual build has not been independently verified for this portfolio.

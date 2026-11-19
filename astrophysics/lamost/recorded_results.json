@@ -1,0 +1,10 @@
+{
+  "status": "historical reported results; not rerun",
+  "analysis": "LAMOST DR2 FGK candidate mass-luminosity relation",
+  "slope_approx": 3.46,
+  "r_squared_approx": 0.516,
+  "reported_mean_mass_uncertainty_approx": 0.0331,
+  "reported_mean_luminosity_uncertainty_approx": 0.3329,
+  "uncertainty_note": "Historical reported values; precise calculation not independently verified.",
+  "original_input_available": false
+}
