@@ -1,0 +1,35 @@
+{
+  "n_months": 93,
+  "train_n": 60,
+  "test_n": 21,
+  "coefficients": {
+    "intercept": 0.01995801092317804,
+    "container_calls_daily_log_yoy": -0.13172325195719994,
+    "all_ship_calls_daily_mean_log_yoy": 0.5367734986645272
+  },
+  "metrics": {
+    "seasonal_naive": {
+      "MAE_thousand_TEU": 235.55123152709365,
+      "RMSE_thousand_TEU": 261.64825294804876,
+      "MAPE_pct": 6.2633602498533865
+    },
+    "trend_only": {
+      "MAE_thousand_TEU": 168.00188512923918,
+      "RMSE_thousand_TEU": 203.34781888306327,
+      "MAPE_pct": 4.471509419210454
+    },
+    "ais_nowcast": {
+      "MAE_thousand_TEU": 144.6837419098984,
+      "RMSE_thousand_TEU": 165.43672497460463,
+      "MAPE_pct": 3.8611993506628326
+    }
+  },
+  "corr_levels": 0.17027627048829524,
+  "corr_yoy": 0.2473444066761219,
+  "latest_month": "2026-09-01",
+  "latest_calls_yoy_pct": -12.629070691024635,
+  "latest_teu_yoy_pct": 1.6179596174282773,
+  "latest_z": -2.8422215069730967,
+  "alert_count": 15,
+  "train_end": "2024-12-01"
+}

@@ -1,0 +1,10 @@
+company,ticker,fiscal_end,revenue_usdm,operating_profit_usdm,operating_cash_flow_usdm,capex_usdm,net_financing_cash_usdm,source,FCF,operating_margin,period
+Rocket Lab,RKLB,2023-12-31,244.592,-177.918,-98.867,54.707,7.369,https://www.sec.gov/Archives/edgar/data/1819994/000181999426000013/rklb-20251231.htm,-153.574,-0.7274072741545103,1
+Rocket Lab,RKLB,2024-12-31,436.214,-189.801,-48.89,67.093,256.682,https://www.sec.gov/Archives/edgar/data/1819994/000181999426000013/rklb-20251231.htm,-115.983,-0.435109831413022,2
+Rocket Lab,RKLB,2025-12-31,601.799,-228.838,-165.521,156.285,1071.271,https://www.sec.gov/Archives/edgar/data/1819994/000181999426000013/rklb-20251231.htm,-321.806,-0.38025653083504624,3
+Planet Labs,PL,2024-01-31,220.696,-169.748,-50.711,42.41,-1.598,https://www.sec.gov/Archives/edgar/data/1836833/000119312526119957/pl-20260131.htm,-93.121,-0.7691485119802806,1
+Planet Labs,PL,2025-01-31,244.352,-116.122,-14.374,49.619,-15.535,https://www.sec.gov/Archives/edgar/data/1836833/000119312526119957/pl-20260131.htm,-63.993,-0.4752242666317444,2
+Planet Labs,PL,2026-01-31,307.727,-95.073,134.362,81.497,357.052,https://www.sec.gov/Archives/edgar/data/1836833/000119312526119957/pl-20260131.htm,52.864999999999995,-0.3089524156151394,3
+Intuitive Machines,LUNR,2023-12-31,79.551,-61.119,-45.279,29.911,53.9,https://investors.intuitivemachines.com/static-files/5535cf83-9896-4c04-bab9-fd4dc74699a2,-75.19,-0.7682995814006109,1
+Intuitive Machines,LUNR,2024-12-31,228.0,-57.396,-57.587,10.111,272.787,https://investors.intuitivemachines.com/static-files/d756f897-e69a-456c-b18f-e51788effa55,-67.69800000000001,-0.25173684210526315,2
+Intuitive Machines,LUNR,2025-12-31,210.059,-87.231,-14.318,41.634,446.588,https://investors.intuitivemachines.com/static-files/d756f897-e69a-456c-b18f-e51788effa55,-55.952,-0.41526904345921856,3
