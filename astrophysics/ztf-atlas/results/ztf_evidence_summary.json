@@ -1,0 +1,42 @@
+{
+  "interpretation": "Not enough evidence for persistent periodicity or independent discovery; two nearby sources correlated on one observing night; requires ZTF single-exposure image/photometry validation",
+  "ids": [
+    "514211100036748",
+    "514211100021672"
+  ],
+  "angular_separation_arcsec": 16.121126987285084,
+  "shared_epoch_mjd": 58483,
+  "same_exposures": 100,
+  "duration_hours": 2.2380552000249736,
+  "pearson_r_same_exposure": 0.7926675905091444,
+  "n_other_sources_compared": 26,
+  "r_band_power": [
+    {
+      "All r observations": 0.3024410191683714,
+      "r without MJD 58483": 0.043784604269530736,
+      "g at same period": 0.010408685089564324
+    },
+    {
+      "All r observations": 0.22941016565074818,
+      "r without MJD 58483": 0.007165967848529636,
+      "g at same period": 0.0034693212368077718
+    }
+  ],
+  "median_night_offset_mag": [
+    0.22713375000000013,
+    0.11105724999999822
+  ],
+  "local_field_ensemble_p5_p95_brightening": [
+    -0.025834471249999647,
+    0.02051491999999948
+  ],
+  "g_has_same_night": false,
+  "catalogue_novelty": "NOT VERIFIED",
+  "correlation_rest_of_r_observations": 0.6398483692950183,
+  "matched_exposures_rest": 432,
+  "g_band_correlation_matched_exposures": 0.29657578035768395,
+  "g_band_matched_exposures": 249,
+  "all_r_source_pairs_tested": 435,
+  "r_pair_rank_by_correlation_excluding_MJD58483": 1,
+  "caution": "Some other R-band pairs in same field correlate >0.6, so the correlation cannot be attributed uniquely to an astrophysical source; likely common/local photometric systematics must be examined in original images"
+}
