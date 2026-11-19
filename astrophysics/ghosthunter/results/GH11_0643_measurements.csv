@@ -1,0 +1,4 @@
+index,candidate,band,ratio_9to20px,star_p90,target_core_sky_subtracted,n_stars
+0,GH11-0643,g,-0.0980862,0.0227899,0.0016804,9
+1,GH11-0643,r,0.0258737,0.0119478,0.0013393,14
+2,GH11-0643,z,0.2945046,0.0110792,0.0013157,14

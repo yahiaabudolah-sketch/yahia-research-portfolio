@@ -1,0 +1,71 @@
+{
+  "source": "User-supplied two IRSA ZTF science-image archives, PSF catalogues, empirical PSFs",
+  "early": {
+    "exposure_id": "20181231192037",
+    "mjd": 58483.192037,
+    "seeing_arcsec": 2.695968,
+    "maglim": 20.63,
+    "infobits": 0,
+    "magzprms": 0.016485
+  },
+  "late": {
+    "exposure_id": "20181231270660",
+    "mjd": 58483.2706713,
+    "seeing_arcsec": 6.236956,
+    "maglim": 19.21,
+    "infobits": 8,
+    "magzprms": 0.039351
+  },
+  "targets": {
+    "Source A": {
+      "name": "Source A",
+      "ra": 106.6696355,
+      "dec": 13.3708388,
+      "magnitude_early": 18.53643798828125,
+      "magnitude_late": 18.07965660095215,
+      "late_minus_early_mag": -0.45678138732910156,
+      "early_flux": 1297.5667724609375,
+      "late_flux": 2059.42919921875,
+      "early_flux_error": 80.66946411132812,
+      "late_flux_error": 189.30108642578125,
+      "early_psf_chi": 1.7790000438690186,
+      "late_psf_chi": 0.8090000152587891,
+      "early_sharp": 0.11400000005960464,
+      "late_sharp": 0.5339999794960022,
+      "early_source_flag": 0,
+      "late_source_flag": 0
+    },
+    "Source B": {
+      "name": "Source B",
+      "ra": 106.665247,
+      "dec": 13.3694145,
+      "magnitude_early": 18.210437774658203,
+      "magnitude_late": 17.93765640258789,
+      "late_minus_early_mag": -0.2727813720703125,
+      "early_flux": 1752.1142578125,
+      "late_flux": 2345.715087890625,
+      "early_flux_error": 52.60847473144531,
+      "late_flux_error": 222.52980041503906,
+      "early_psf_chi": 0.6840000152587891,
+      "late_psf_chi": 1.3079999685287476,
+      "early_sharp": 0.007000000216066837,
+      "late_sharp": 0.1420000046491623,
+      "early_source_flag": 0,
+      "late_source_flag": 0
+    }
+  },
+  "comparison": {
+    "other_sources_matched_in_cutouts": 6,
+    "bright_reference_median_delta_mag": -0.05028200149536133,
+    "faint_reference_median_delta_mag": -0.25478076934814453,
+    "n_bright": 4,
+    "n_faint_including_targets": 4
+  },
+  "interpretation": "BAD SEEING and simultaneous faint-star brightening strongly suggest quality-dependent PSF photometry bias; do not assert causal identification or discovery.",
+  "limitations": [
+    "Both images from same camera filter and night",
+    "PSF catalog magnitudes calibrated by MAGZP; interexposure colour coefficient not reprocessed",
+    "Limited comparison-star selection and original image crop",
+    "Image-level catalogues not independent observational confirmation"
+  ]
+}
