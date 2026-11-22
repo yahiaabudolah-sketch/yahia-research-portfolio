@@ -1,0 +1,13 @@
+{
+  "synthetic_only": true,
+  "n_seed_pairs": 100,
+  "steps_per_seed": 1000,
+  "paired_pnl_difference_mean_usd": -350.25,
+  "paired_pnl_difference_median_usd": -320.31,
+  "paired_drawdown_difference_mean_usd": -425.47,
+  "fraction_aware_lower_drawdown": 0.86,
+  "fraction_aware_higher_pnl": 0.22,
+  "mean_aware_pnl_usd": 185.25,
+  "mean_neutral_pnl_usd": 535.5,
+  "method": "paired common-random-number comparison, stylized execution, no real option data"
+}

@@ -73,3 +73,8 @@ Python · NumPy · SciPy · pandas · Matplotlib · Astropy · Excel · statisti
 The project pages document sources, assumptions and limitations. The gravity manuscript is unpublished, and the commercial models are exploratory prototypes pending independent reproduction. The LAMOST script reconstructs the analysis workflow; the original dataset is not included.
 
 See [dependencies](requirements.txt) and [data and provenance](DATA_AND_REUSE.md) for further details.
+
+
+### Quantitative trading research
+
+**[Options Market-Making Simulator](quant-trading/options-market-making-simulator/)** - Python Black-Scholes pricing, inventory-aware options quoting, delta hedging, synthetic trading risk controls, SQLite trade/mark logs, and reproducible paired 100-seed comparisons. [Methodology and limitations](quant-trading/options-market-making-simulator/README.md).

@@ -1,0 +1,51 @@
+{
+  "settings": {
+    "steps": 1000,
+    "seed": 42,
+    "initial_spot": 100.0,
+    "strike": 100.0,
+    "initial_volatility": 0.24,
+    "maturity_years": 0.5,
+    "rate": 0.02,
+    "steps_per_year": 2520,
+    "half_spread": 0.2,
+    "skew_per_contract": 0.045,
+    "max_contracts": 12,
+    "hedge_every": 5,
+    "hedge_threshold_shares": 20,
+    "option_fee_per_contract": 0.45,
+    "stock_fee_per_share": 0.005,
+    "stock_slippage_per_share": 0.015,
+    "option_exit_slippage": 0.12,
+    "arrival_probability": 0.22,
+    "fill_distance_sensitivity": 3.5
+  },
+  "synthetic_data": true,
+  "comparison_method": "paired common random numbers, not a trading forecast",
+  "results": [
+    {
+      "strategy": "inventory_aware",
+      "pnl_usd": -408.87,
+      "max_drawdown_usd": 904.5,
+      "mark_change_std_usd": 29.61,
+      "fill_count": 64,
+      "hedge_count": 72,
+      "max_abs_option_inventory": 11,
+      "mean_abs_option_inventory": 3.954,
+      "option_fees_usd": 28.8,
+      "stock_execution_cost_usd": 95.46
+    },
+    {
+      "strategy": "neutral_quotes",
+      "pnl_usd": 506.9,
+      "max_drawdown_usd": 1467.36,
+      "mark_change_std_usd": 37.78,
+      "fill_count": 58,
+      "hedge_count": 77,
+      "max_abs_option_inventory": 12,
+      "mean_abs_option_inventory": 4.64,
+      "option_fees_usd": 26.1,
+      "stock_execution_cost_usd": 96.44
+    }
+  ]
+}
